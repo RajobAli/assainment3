@@ -17,11 +17,19 @@
 <script src="https://kit.fontawesome.com/e592c71ad0.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="style.css">
 
+<style>
+    .font-lato{
+    
+    font-family: 'Lato', sans-serif;
+}
+</style>
 
 
-<body>
+
+<body class="font-lato" >
+    <!-- local link: https://github.com/RajobAli/assainment3 -->
     <!-- navbar start here -->
-    <section class="w-10/12 grid   mx-auto my-8 rounded-full p-4 bg-red-500 ">
+    <section class="w-10/12 grid mx-auto my-8 rounded-full p-4 lg:bg-red-500">
        <div class="lg:ml-2 lg:grid lg:grid-cols-3 lg:gap-10 lg:items-center ml-2 grid grid-cols-2 gap-10 justify-between items:cente ">
         <div class="lg:flex hidden ">
             <ul class="lg:flex gap-10 text-xs text-white">
@@ -32,8 +40,8 @@
             </ul>
             </div>
             <div class="flex gap-4">
-                <img class="h-8 ml-8" src="logo.png" alt="">
-                <h1 class="text-white  text-20">Fruit Burst</h1>
+                <img class="h-8 lg:ml-8 -ml-2 mr-4" src="logo.png" alt="">
+                <h1 class="lg:text-white lg:text-10 text-xl -ml-4 ">Fruit Burst</h1>
             </div>
             <div class="relative lg:block hidden">
                 <input class="h-11 w-64 rounded-full p-6 ml-8" type="search" placeholder="Search Here">
@@ -43,16 +51,35 @@
 
             </div>
             <div class="lg:hidden">
-                <img class="h-8 w-8 ml-10" src="navbar.png" alt="">
+                <img class="h-8 w-8 lg:ml-10 ml-20" src="navbar.png" alt="">
             </div>
 
         </div>
        </div>
+
    
 
     </section>
+       <!-- navbar ends here -->
+
+       <!-- header section starts here -->
+       <header class="w-10/12 grid mx-auto my-8 rounded-full p-4">
+        <div class="imagee hero min-h-screen rounded-lg bg-gradient-to-r from-[#121212] to-[#000000]" style="background-image:url('banner1.png');">
+            <div class="hero-overlay"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mb-5 text-base font-extrabold">Exotic tastes at your <br> doorstep</h1>
+                <p class="mb-5">We supply highly quality organic products</p>
+                <button class="btn btn-error text-white">Shop Now</button>
+              </div>
+            </div>
+          </div>
+
+       </header>
+    
 
 
     
 </body>
 </html>
+
