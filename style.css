@@ -11,3 +11,9 @@
 .imagee{
     border-radius: 30px;
 }
+.btn{
+    color:#F85559;
+}
+.btn:hover{
+    border: 5px solid black;
+}
