@@ -14,9 +14,18 @@
 .btn{
     color:#F85559;
 }
-.btn:hover{
-    border: 5px solid black;
-}
+
 .pp{
- top:130px;
+ top:200px;
+}
+
+.my-style{
+    font-size: 3rem;
+    margin-top: 100px;
+    margin-left: 100px;
+   
+
+   
+
+
 }
